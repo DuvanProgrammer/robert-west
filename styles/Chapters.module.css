@@ -1,0 +1,53 @@
+.rwChapters{
+    background-color: white;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.rwChapters h3{
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: .4em;
+}
+.rwChapters .rwChapter_content{
+    text-align: center;
+    padding: 3em 3em 2.5em 3em;
+}
+.rwChapters .rwChapter__row{
+    display: flex;
+}
+.rwChapter__open{
+    background-color: #F5F5F5;
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+}
+.rwChapter__open:hover{
+    background-color: black;
+}
+.rwChapter__open path{
+    transition: all .4s;
+}
+.rwChapter__open:hover path{
+    stroke: white;
+}
+.rwChapter__download{
+    background-color: #E5E5E5;
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+}
+.rwChapter__download:hover{
+    background-color: black;
+}
+.rwChapter__download path{
+    transition: all .4s;
+}
+.rwChapter__download:hover path{
+    fill: white;
+}
