@@ -1,0 +1,90 @@
+.rwCardmenu{
+    width: 100%;
+    position: relative;
+    min-height: 500px;
+}
+.rwCardmenu::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 500px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 100%);
+    z-index: 1;
+}
+.rwCardmenuContent{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em;
+}
+
+.rwCardmenuContent h2{
+    color: white;
+    font-size: 64px;
+}
+
+.rwCardmenuContent span{
+    color: white;
+    font-size: 24px;
+    font-family: 'Merriweather', sans-serif;
+    font-style: italic;
+}
+.rwCardmenuContent a{
+    background-color: white;
+    padding: 1em 0;
+    color: black;
+    width: 150px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    line-height: .5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .4s;
+}
+.rwCardmenuContent a:hover{
+    background-color: #636363;
+    color: white;
+}
+
+.rwCardmenuWhite::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 500px;
+    background: rgb(255,255,255);
+    background: linear-gradient(260deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    z-index: 1;
+}
+
+.rwCardmenuWhite .rwCardmenuContent{
+    align-items: end;
+}
+
+.rwCardmenuWhite .rwCardmenuContent h2{
+    color: black;
+}
+
+.rwCardmenuWhite .rwCardmenuContent span{
+    color: black;
+}
+
+.rwCardmenuWhite .rwCardmenuContent a{
+    background-color: black;
+    color: white;
+}
+
+.rwCardmenuWhite .rwCardmenuContent a:hover{
+    background-color: #636363;
+    color: white;
+}

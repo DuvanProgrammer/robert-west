@@ -26,3 +26,9 @@
 .rwHeaderDark a{
     color: white;
 }
+
+.rwHeaderDark a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
