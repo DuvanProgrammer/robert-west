@@ -1,6 +1,8 @@
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Chapters from "../components/Chapters"
+import Cardmenu from "../components/Cardmenu"
+import FondoPrueba from "../public/img/fondo-cardmenu.png"
 import SubheaderBlack from "../components/SubheaderBlack"
 
 
@@ -9,7 +11,11 @@ export default function components() {
 
     return (
         <div>
-            <Header />
+            <Header
+            />
+            <Header
+                dark={true}
+            />
             <SubheaderBlack></SubheaderBlack>
             <div className="container mt-5 mb-5">
                 <div className="row">
@@ -36,6 +42,20 @@ export default function components() {
                     </div>
                 </div>
             </div>
+
+            <Cardmenu
+                fondo= {FondoPrueba}
+                title= 'ROBERT WEST'
+                subtitle= 'y la escuela de Berkeley'
+                link= "#"
+            />
+            <Cardmenu
+                fondo= {FondoPrueba}
+                title= 'ROBERT WEST'
+                subtitle= 'y la escuela de Berkeley'
+                link= "#"
+                white={true}
+            />
         <Footer />
         </div>
     )

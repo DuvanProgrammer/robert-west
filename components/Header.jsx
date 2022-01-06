@@ -1,9 +1,16 @@
 import Link from "next/link";
+import "bootstrap/dist/css/bootstrap.css"
 import styles from "../styles/Header.module.css";
 
-export default function header() {
+export default function header({dark}) {
+
+  let modeClass = ""
+  if(dark){
+    modeClass = styles.rwHeaderDark
+  }
+
   return (
-    <header className={`${styles.rwHeader}`}>
+    <header className={`${modeClass} ${styles.rwHeader}`}>
       <nav className={`w-100 ${styles.rwHeaderCont}`}>
         <ul className={`nav justify-content-center ${styles.rwHeaderContItemsUl}`}>
           <li className={`nav-item ${styles.rwHeaderContItems}`}>
