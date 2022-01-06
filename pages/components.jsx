@@ -1,6 +1,7 @@
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Chapters from "../components/Chapters"
+import SubheaderBlack from "../components/SubheaderBlack"
 
 
 
@@ -9,7 +10,7 @@ export default function components() {
     return (
         <div>
             <Header />
-
+            <SubheaderBlack></SubheaderBlack>
             <div className="container mt-5 mb-5">
                 <div className="row">
                     <div className="col-12 col-md-4">
