@@ -16,8 +16,6 @@ export default function components() {
             <Header
                 dark={true}
             />
-
-            <Header />
             <SubheaderBlack></SubheaderBlack>
             <div className="container mt-5 mb-5">
                 <div className="row">
