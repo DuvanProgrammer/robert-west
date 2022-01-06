@@ -6,6 +6,10 @@ import Header from "../components/Header"
 
 export default function components() {
     return (
-        <Footer />
+        <div>
+            <Header />
+            <Header />
+            <Footer />
+        </div>
     )
 }

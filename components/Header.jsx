@@ -1,43 +1,43 @@
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
 
-export default function Inicio() {
+export default function header() {
   return (
-    <head>
-      <nav>
-        <ul>
-          <li>
+    <header className={`${styles.rwHeader}`}>
+      <nav className={`w-100 ${styles.rwHeaderCont}`}>
+        <ul className={`nav justify-content-center ${styles.rwHeaderContItemsUl}`}>
+          <li className={`nav-item ${styles.rwHeaderContItems}`}>
             <Link href="/">
-              <a>Inicio</a>
+              <a className={`nav-link ${styles.rwHeaderContItemsLink}`}>Inicio</a>
             </Link>
           </li>
-          <li>
+          <li className={`nav-item ${styles.rwHeaderContItems}`}>
             <Link href="/robert-west-escuela-berkeley">
-              <a>Rober West y la escuela de Berkeley</a>
+              <a className={`nav-link ${styles.rwHeaderContItemsLink}`}>Rober West y la escuela de Berkeley</a>
             </Link>
           </li>
-          <li>
+          <li className={`nav-item ${styles.rwHeaderContItems}`}>
             <Link href="/historia">
-              <a>Historia</a>
+              <a className={`nav-link ${styles.rwHeaderContItemsLink}`}>Historia</a>
             </Link>
           </li>
-          <li>
+          <li className={`nav-item ${styles.rwHeaderContItems}`}>
             <Link href="/fotografias">
-              <a>Fotografías</a>
+              <a className={`nav-link ${styles.rwHeaderContItemsLink}`}>Fotografías</a>
             </Link>
           </li>
-          <li>
+          <li className={`nav-item ${styles.rwHeaderContItems}`}>
             <Link href="/catalogos">
-              <a>Catálogos</a>
+              <a className={`nav-link ${styles.rwHeaderContItemsLink}`}>Catálogos</a>
             </Link>
           </li>
-          <li>
+          <li className={`nav-item ${styles.rwHeaderContItems}`}>
             <Link href="/creditos">
-              <a>Créditos</a>
+              <a className={`nav-link ${styles.rwHeaderContItemsLink}`}>Créditos</a>
             </Link>
           </li>
         </ul>
       </nav>
-    </head>
+    </header>
   );
 }

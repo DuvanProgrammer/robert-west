@@ -1,0 +1,28 @@
+.rwHeader{
+    display: flex;
+    background-color: white;
+    opacity: .7;
+}
+.rwHeaderCont{
+    padding: 1.5em;
+}
+.rwHeaderContItemsLink{
+    color: black;
+    font-family: 'Merriweather', sans-serif !important;
+    font-family: italic;
+    transition: all .4s;
+}
+.rwHeaderContItemsLink:hover{
+    color: black;
+    opacity: .9;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.rwHeaderDark{
+    background-color: transparent;
+}
+
+.rwHeaderDark a{
+    color: white;
+}
