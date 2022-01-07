@@ -1,0 +1,77 @@
+.rwCardsectionItem{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    transition: all .4s;
+}
+
+.rwCardsectionItem::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 500px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 60%);
+    opacity: 0;
+    z-index: 1;
+    transition: all .4s;
+}
+
+.rwCardsectionItem::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 500px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 60%);
+    z-index: 1;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.rwCardsectionImg{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+}
+
+.rwCardsectionTitle{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 100%;
+    z-index: 2;
+}
+
+.rwCardsectionTitle h2{
+    color: white;
+    transition: all .4s;
+}
+
+.rwCardsectionTitle a{
+    transform: scale(0);
+    transition: all .4s;
+}
+
+.rwCardsectionItem:hover .rwCardsectionTitle a{
+    transform: scale(1);
+}
+
+.rwCardsectionItem:hover::before{
+    opacity: 0;
+}
+
+.rwCardsectionItem:hover::after{
+    opacity: 1;
+}
+
+.rwCardsectionItem:hover .rwCardsectionTitle h2{
+    color: black;
+}
