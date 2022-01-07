@@ -6,14 +6,13 @@
     overflow: hidden;
 }
 .rwSubheaderb__image{
-    width: 50%;
-    position: relative;
+    width: 100%;
+    position: absolute;
     height: 780px;
 }
 .rwSubheaderb__content{
-    background-color: black;
-    width: 50%;
     height: 100%;
+    z-index: 1;
 }
 .rwSubheaderb__content h3{
     color: white;

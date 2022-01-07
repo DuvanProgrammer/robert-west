@@ -4,14 +4,13 @@
     position: relative;
 }
 .rwSubheaderw__image{
-    width: 50%;
-    position: relative;
+    width: 100%;
+    position: absolute;
     height: 780px;
 }
 .rwSubheaderw__content{
-    background-color: white;
-    width: 50%;
     height: 100%;
+    z-index: 1;
 }
 .rwSubheaderw__content h3{
     color: black;
@@ -31,7 +30,6 @@
 .rwSubheaderw__content p{
     color: #3E3E3E;
     font-size: 20px;
-    padding-right: 2em;
 }
 .rwSubheaderw__info{
     width: 660px;
