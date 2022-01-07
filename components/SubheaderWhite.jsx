@@ -9,8 +9,6 @@ export default function SubheaderWhite({title, subtitle}) {
             <div className={styles.rwSubheaderw__image}>
                 <Image
                     src="/img/subheader-white.png"
-                    width="100%"
-                    height="780px"
                     layout="fill"
                     objectFit="cover"
                     >
