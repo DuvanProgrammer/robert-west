@@ -4,6 +4,7 @@ import Chapters from "../components/Chapters";
 import Cardmenu from "../components/Cardmenu";
 import FondoPrueba from "../public/img/fondo-cardmenu.png";
 import SubheaderBlack from "../components/SubheaderBlack";
+import SubheaderWhite from "../components/SubheaderWhite";
 import Cardsection from "../components/Cardsection";
 import ImagenPrueba from "../public/img/card-img.png";
 
@@ -12,7 +13,14 @@ export default function components() {
     <div>
       <Header />
       <Header dark={true} />
-      <SubheaderBlack></SubheaderBlack>
+      <SubheaderBlack
+        title="ROBERT WEST"
+        subtitle="y la escuela de Berkeley"
+      />
+      <SubheaderWhite
+        title="Archivo fotográfico de Robert West"
+        subtitle="Las tierras bajas del pacifico colombiano"
+      />
       <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-12 col-md-4">
