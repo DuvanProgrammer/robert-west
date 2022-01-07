@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Outfit:wght@100;400;700&family=Poppins:wght@500&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');*/
+
 
 html,
 body {
@@ -24,4 +24,28 @@ p, span {
 
 * {
   box-sizing: border-box;
+}
+
+/* Class for Header Fixed */
+.rwHeaderFixed{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(106,106,106,0.2); 
+  box-shadow: 0px 0px 10px 1px rgba(106,106,106,0.2);
+  animation: stickyHeaderEffect .5s ease-in-out;
+}
+
+
+@keyframes stickyHeaderEffect {
+    from {
+      transform: translateY(-100%);
+    }
+
+    to{
+      transform: translateY(0);
+    }
+  
 }

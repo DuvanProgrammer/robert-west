@@ -1,8 +1,9 @@
 .rwHeader{
     display: flex;
     background-color: white;
-    opacity: .7;
+    transition: .4s;
 }
+
 .rwHeaderCont{
     padding: 1.5em;
 }

@@ -11,8 +11,12 @@ import ImagenPrueba from "../public/img/card-img.png";
 export default function components() {
   return (
     <div>
-      <Header />
-      <Header dark={true} />
+      <Header
+      />
+      <div className="mt-5">
+      <Header dark={true} 
+      />
+      </div>
       <SubheaderBlack
         title="ROBERT WEST"
         subtitle="y la escuela de Berkeley"

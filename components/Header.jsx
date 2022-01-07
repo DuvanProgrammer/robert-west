@@ -1,16 +1,22 @@
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.css"
 import styles from "../styles/Header.module.css";
+import { useEffect } from "react";
+import stickyHeader from "../modules/HeaderSticky";
 
-export default function header({dark}) {
+export default function header({dark,fixed}) {
 
   let modeClass = ""
   if(dark){
     modeClass = styles.rwHeaderDark
   }
 
+  useEffect(() => {
+    stickyHeader()
+  })
+
   return (
-    <header className={`${modeClass} ${styles.rwHeader}`}>
+    <header id="rw-header-p" className={`${modeClass} ${styles.rwHeader}`}>
       <nav className={`w-100 ${styles.rwHeaderCont}`}>
         <ul className={`nav justify-content-center ${styles.rwHeaderContItemsUl}`}>
           <li className={`nav-item ${styles.rwHeaderContItems}`}>
