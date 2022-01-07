@@ -14,9 +14,7 @@ export default function SubheaderBlack({title, subtitle}) {
                 </Image>
             </div>
             <div className={`container ${styles.rwSubheaderb__content}`}>
-                <div className="row">
-                    <div className="col-12 col-md-6"></div>
-                    <div className={`col-12 col-md-6 ${styles.rwSubheaderb__info}`}>
+                    <div className={`col-6 col-md-6 ${styles.rwSubheaderb__info}`}>
                         <h3>{title}</h3>
                         <h5>{subtitle}</h5>
                         <div className={styles.rwSubheaderb__text}>
@@ -27,7 +25,6 @@ export default function SubheaderBlack({title, subtitle}) {
                             <a href="#">VOLVER</a>    
                         </div>                
                     </div>
-                </div>
             </div>
         </div>
     )
