@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function escuela() {
     return (
         <div>
-            <Header dark={true} 
+            <Header dark={true} fixed={true}
             />
             <div>
                 <SubheaderBlack

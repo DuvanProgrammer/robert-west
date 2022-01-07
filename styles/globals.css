@@ -36,8 +36,12 @@ p, span {
   -webkit-box-shadow: 0px 0px 10px 1px rgba(106,106,106,0.2); 
   box-shadow: 0px 0px 10px 1px rgba(106,106,106,0.2);
   animation: stickyHeaderEffect .5s ease-in-out;
+  background-color: white !important;
 }
 
+.rwHeaderFixed a{
+  color: black !important;
+}
 
 @keyframes stickyHeaderEffect {
     from {

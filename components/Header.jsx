@@ -4,7 +4,13 @@ import styles from "../styles/Header.module.css";
 import { useEffect } from "react";
 import stickyHeader from "../modules/HeaderSticky";
 
-export default function header({dark,fixed}) {
+export default function header({dark, fixed}) {
+
+  let modeFixed = ""
+  if(fixed){
+    modeFixed = styles.rwHeaderFixedTop
+  }
+
 
   let modeClass = ""
   if(dark){
@@ -16,7 +22,7 @@ export default function header({dark,fixed}) {
   })
 
   return (
-    <header id="rw-header-p" className={`${modeClass} ${styles.rwHeader}`}>
+    <header id="rw-header-p" className={`${modeClass} ${styles.rwHeader} ${modeFixed}`}>
       <nav className={`w-100 ${styles.rwHeaderCont}`}>
         <ul className={`nav justify-content-center ${styles.rwHeaderContItemsUl}`}>
           <li className={`nav-item ${styles.rwHeaderContItems}`}>
