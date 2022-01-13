@@ -17,13 +17,12 @@ export default function SubheaderBlack({title, subtitle}) {
     return (
         <div className={styles.rwSubheaderb}>
             <div className={styles.rwSubheaderb__image}
-                data-aos="fade-right"
-                data-aos-duration="2000"
             >
                 <Image
                     src="/img/subheader-black.png"
                     layout="fill"
                     objectFit="cover"
+                    loading="eager"
                     >
                 </Image>
             </div>

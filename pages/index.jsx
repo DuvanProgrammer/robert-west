@@ -36,7 +36,7 @@ export default function inicio() {
                     fondo={FondoPrueba}
                     title="ROBERT WEST"
                     subtitle="y la escuela de Berkeley"
-                    link="#"
+                    link="robert-west-y-la-escuela-de-berkeley"
                 />
             </div>
             <div>

@@ -18,13 +18,12 @@ export default function SubheaderWhite({title, subtitle}) {
         <div >
             <div className={styles.rwSubheaderw}>
             <div className={styles.rwSubheaderw__image}
-                data-aos="fade-right"
-                data-aos-duration="2000"
                 >
                 <Image
                     src="/img/subheader-white.png"
                     layout="fill"
                     objectFit="cover"
+                    loading="eager"
                     >
                 </Image>
             </div>
