@@ -3,19 +3,32 @@ import SubheaderBlack from "../components/SubheaderBlack";
 import Cardsection from "../components/Cardsection";
 import ImagenPrueba from "../public/img/card-img.png";
 import Footer from "../components/Footer";
+import { useEffect } from 'react'
+import AOS from 'aos'
+
+import 'aos/dist/aos.css'
 
 export default function escuela() {
+    useEffect(() => {
+        // here you can add your aos options
+        AOS.init({
+          offset: 100,
+        });
+      }, []);
     return (
         <div>
             <Header dark={true} fixed={true}
             />
-            <div>
+            <div data-aos="fade-left"
+                 data-aos-duration="1200">
                 <SubheaderBlack
                     title="ROBERT WEST"
                     subtitle="y la escuela de Berkeley"
                 />
             </div>
-            <div className="container mb-5">
+            <div className="container mb-5"
+                 data-aos="fade-right"
+                 data-aos-duration="1200">
             <div className="row">
                 <div className="col-12 col-md-3">
                 <Cardsection 
