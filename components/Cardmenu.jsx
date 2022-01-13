@@ -17,7 +17,9 @@ export default function Cardmenu({fondo, title, subtitle, link, white}) {
         layout="fill"
         objectFit="cover"
       />
-      <div className={styles.rwCardmenuContent}>
+      <div className={styles.rwCardmenuContent}
+           data-aos="fade-left"
+           data-aos-duration="1200">
         <h2>{title}</h2>
         <span>{subtitle}</span>
         <a href={link}>Ver Más</a>

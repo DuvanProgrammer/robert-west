@@ -31,10 +31,7 @@ export default function inicio() {
                     subtitle="Las tierras bajas del pacifico colombiano"
                 />
             </div>
-            <div 
-                data-aos="fade-left"
-                data-aos-duration="1200"
-                >
+            <div>
                 <Cardmenu
                     fondo={FondoPrueba}
                     title="ROBERT WEST"
@@ -42,10 +39,7 @@ export default function inicio() {
                     link="#"
                 />
             </div>
-            <div
-                data-aos="fade-right"
-                data-aos-duration="1200"
-                >
+            <div>
                 <Cardmenu
                     white={true}
                     fondo={FondoPrueba2}
@@ -53,20 +47,14 @@ export default function inicio() {
                     link="#"
                 />
             </div>
-            <div
-                data-aos="fade-left"
-                data-aos-duration="1200"
-                >
+            <div>
                 <Cardmenu
                     fondo={FondoPrueba3}
                     title="FOTOGRAFÍAS"
                     link="#"
                 />
             </div>
-            <div
-                data-aos="fade-right"
-                data-aos-duration="1200"
-                >
+            <div>
                 <Cardmenu
                     white={true}
                     fondo={FondoPrueba4}
@@ -74,10 +62,7 @@ export default function inicio() {
                     link="#"
                 />
             </div>
-            <div
-                data-aos="fade-left"
-                data-aos-duration="1200"
-                >
+            <div>
                 <Cardmenu
                     fondo={FondoPrueba5}
                     title="FOTOGRAFÍAS"
