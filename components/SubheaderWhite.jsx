@@ -2,11 +2,25 @@ import "bootstrap/dist/css/bootstrap.css"
 import styles from "../styles/SubheaderWhite.module.css"
 import Image from "next/image"
 
+import { useEffect } from 'react'
+import AOS from 'aos'
+
+import 'aos/dist/aos.css'
+
 export default function SubheaderWhite({title, subtitle}) {
+    useEffect(() => {
+        // here you can add your aos options
+        AOS.init({
+          offset: 100,
+        });
+      }, []);
     return (
-        <div>
+        <div >
             <div className={styles.rwSubheaderw}>
-            <div className={styles.rwSubheaderw__image}>
+            <div className={styles.rwSubheaderw__image}
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                >
                 <Image
                     src="/img/subheader-white.png"
                     layout="fill"
@@ -14,7 +28,10 @@ export default function SubheaderWhite({title, subtitle}) {
                     >
                 </Image>
             </div>
-            <div className={`container ${styles.rwSubheaderw__content}`}>
+            <div className={`container ${styles.rwSubheaderw__content}`}
+                data-aos="fade-left"
+                data-aos-duration="2000"
+            >
                     <div className={`col-12 col-md-6 ${styles.rwSubheaderw__info}`}>
                         <h3>{title}</h3>
                         <h5>{subtitle}</h5>

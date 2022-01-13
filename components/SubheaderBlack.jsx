@@ -2,10 +2,24 @@ import "bootstrap/dist/css/bootstrap.css"
 import styles from "../styles/SubheaderBlack.module.css"
 import Image from "next/image"
 
+import { useEffect } from 'react'
+import AOS from 'aos'
+
+import 'aos/dist/aos.css'
+
 export default function SubheaderBlack({title, subtitle}) {
+    useEffect(() => {
+        // here you can add your aos options
+        AOS.init({
+          offset: 100,
+        });
+      }, []);
     return (
         <div className={styles.rwSubheaderb}>
-            <div className={styles.rwSubheaderb__image}>
+            <div className={styles.rwSubheaderb__image}
+                data-aos="fade-right"
+                data-aos-duration="2000"
+            >
                 <Image
                     src="/img/subheader-black.png"
                     layout="fill"
@@ -13,7 +27,10 @@ export default function SubheaderBlack({title, subtitle}) {
                     >
                 </Image>
             </div>
-            <div className={`container ${styles.rwSubheaderb__content}`}>
+            <div className={`container ${styles.rwSubheaderb__content}`}
+                data-aos="fade-left"
+                data-aos-duration="2000"
+            >
                     <div className={`col-6 col-md-6 ${styles.rwSubheaderb__info}`}>
                         <h3>{title}</h3>
                         <h5>{subtitle}</h5>

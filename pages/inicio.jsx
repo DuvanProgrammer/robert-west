@@ -8,7 +8,18 @@ import FondoPrueba3 from "../public/img/fondo-cardmenu3.png";
 import FondoPrueba4 from "../public/img/fondo-cardmenu4.png";
 import FondoPrueba5 from "../public/img/fondo-cardmenu5.png";
 
+import { useEffect } from 'react'
+import AOS from 'aos'
+
+import 'aos/dist/aos.css'
+
 export default function inicio() {
+    useEffect(() => {
+        // here you can add your aos options
+        AOS.init({
+          offset: 100,
+        });
+      }, []);
     return (
         <div>
             <Header dark={false} fixed={true}
@@ -20,30 +31,53 @@ export default function inicio() {
                     subtitle="Las tierras bajas del pacifico colombiano"
                 />
             </div>
-            <div>
+            <div 
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                >
                 <Cardmenu
                     fondo={FondoPrueba}
                     title="ROBERT WEST"
                     subtitle="y la escuela de Berkeley"
                     link="#"
                 />
+            </div>
+            <div
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                >
                 <Cardmenu
                     white={true}
                     fondo={FondoPrueba2}
                     title="HISTORIA"
                     link="#"
                 />
+            </div>
+            <div
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                >
                 <Cardmenu
                     fondo={FondoPrueba3}
                     title="FOTOGRAFÍAS"
                     link="#"
                 />
+            </div>
+            <div
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                >
                 <Cardmenu
                     white={true}
                     fondo={FondoPrueba4}
                     title="CATÁLOGOS"
                     link="#"
                 />
+            </div>
+            <div
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                >
                 <Cardmenu
                     fondo={FondoPrueba5}
                     title="FOTOGRAFÍAS"
