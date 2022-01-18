@@ -7,6 +7,9 @@ import SubheaderBlack from "../components/SubheaderBlack";
 import SubheaderWhite from "../components/SubheaderWhite";
 import Cardsection from "../components/Cardsection";
 import ImagenPrueba from "../public/img/card-img.png";
+import CardPhoto from "../components/CardPhoto";
+import ImgCardPhoto from  "../public/img/img-card-photo.png";
+import ButtonBlack from "../components/ButtonBlack";
 
 export default function components() {
   return (
@@ -94,8 +97,55 @@ export default function components() {
             link="#"
           />
           </div>
+
         </div>
-      </div>  
+      </div> 
+      <div className="container mt-5 mb-5">
+        <div className="row">
+          <div className="col-12 col-md-4">
+            <CardPhoto
+            imagen={ImgCardPhoto}
+            link="#"
+            />
+          </div>
+          <div className="col-12 col-md-4">
+          <CardPhoto
+            imagen={ImgCardPhoto}
+            link="#"
+            />
+          </div>
+          <div className="col-12 col-md-4">
+          <CardPhoto
+            imagen={ImgCardPhoto}
+            link="#"
+            />
+          </div>
+
+        </div>
+      </div>
+      <div className="container mt-5 mb-5">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <CardPhoto
+            imagen={ImgCardPhoto}
+            link="#"
+            horizontal={true}
+            />
+          </div>
+          <div className="col-12 col-md-6">
+          <CardPhoto
+            imagen={ImgCardPhoto}
+            link="#"
+            horizontal={true}
+            />
+          </div>
+        </div>
+        <div className="row mt-5">
+          <ButtonBlack
+          link="#"
+          />
+        </div>
+      </div>
       <Footer />
     </div>
   );
