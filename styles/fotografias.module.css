@@ -1,0 +1,40 @@
+.rwArchive{
+    padding: 5em 0
+}
+.rwFormSearch button{
+    background-color: black;
+    height: 43px;
+    border: none;
+    width: 60px;
+    border-radius: 22px 0 0 22px;
+}
+.rwFormSearch input{
+    height: 43px;
+    background-color: rgba(196, 196, 196, .5);
+    border: none;
+    width: 320px;
+    padding-left: 2em;
+    border-radius: 0 25px 25px 0;
+}
+.rwTags{
+    margin: 3em 0;
+}
+.rwTags span{
+    display: flex;
+    align-items: center;
+}
+.rwTags svg{
+    margin-right: .3em;
+    cursor: pointer;
+}
+.rwCategories{
+    border-right: 1px solid rgba(196, 196, 196, .6);
+    margin-top: 5.3em;
+    height: 95%;
+}
+.rwCategories h3{
+    padding-left: 1em;
+}
+.rwCategoriesCar{
+    margin-top: 6em;
+}

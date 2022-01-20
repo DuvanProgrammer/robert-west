@@ -1,0 +1,17 @@
+.rwSubheaders{
+    background-image: url('../public/img/bg-subheader-small.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 11em 0 5em 0;
+}
+.rwSubheaders h1{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+.rwSubheaders p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}

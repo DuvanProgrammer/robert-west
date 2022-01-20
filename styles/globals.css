@@ -53,3 +53,10 @@ p, span {
     }
   
 }
+
+.rw-active span{
+  color: black !important;
+}
+.rw-active svg path{
+  stroke: #636363;
+}
