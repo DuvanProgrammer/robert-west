@@ -37,6 +37,6 @@
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
 }
 
-.rwCardPhotoContIcon:hover svg{
-    fill: black;
+.rwCardPhotoContIcon:hover svg path{
+    stroke: black;
 }

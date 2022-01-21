@@ -1,3 +1,6 @@
+.rwContCardsectionItem a{
+    text-decoration: none;
+}
 .rwCardsectionItem{
     width: 100%;
     height: 450px;
