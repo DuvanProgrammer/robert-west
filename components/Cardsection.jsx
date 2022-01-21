@@ -1,7 +1,6 @@
-import "bootstrap/dist/css/bootstrap.css"
 import styles from "../styles/Cardsection.module.css"
 import Image from "next/image"
-import Link from "next/Link"
+import Link from "next/link"
 
 export default function Cardsection({imagen, title, link}) {
     return (

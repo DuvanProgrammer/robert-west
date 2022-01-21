@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.css";
 import styles from "../styles/Cardmenu.module.css";
 import Image from "next/image";
 

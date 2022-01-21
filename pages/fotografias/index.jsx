@@ -1,15 +1,15 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import "bootstrap/dist/css/bootstrap.css"
-import styles from "../styles/fotografias.module.css"
-import SubheaderSmall from "../components/SubheaderSmall"
-import ListCategories from "../components/ListCategories"
-import CardPhoto from "../components/CardPhoto"
-import ImgCardPhoto from  "../public/img/img-card-photo.png"
-import ButtonBlack from "../components/ButtonBlack"
-import Cardsection from "../components/Cardsection"
-import ImagenPrueba from "../public/img/card-img.png"
-import ImagenMapa from "../public/img/choco-mapa-1.png"
+import styles from "../../styles/fotografias.module.css"
+import SubheaderSmall from "../../components/SubheaderSmall"
+import ListCategories from "../../components/ListCategories"
+import CardPhoto from "../../components/CardPhoto"
+import ImgCardPhoto from  "../../public/img/img-card-photo.png"
+import ButtonBlack from "../../components/ButtonBlack"
+import Cardsection from "../../components/Cardsection"
+import ImagenPrueba from "../../public/img/card-img.png"
+import ImagenMapa from "../../public/img/choco-mapa-1.png"
 import Image from "next/image"
 
 export default function fotrografia(){

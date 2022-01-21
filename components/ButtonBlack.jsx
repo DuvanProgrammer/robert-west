@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.css";
 import styles from "../styles/ButtonBlack.module.css";
 import Link from "next/link";
 

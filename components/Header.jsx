@@ -1,5 +1,4 @@
 import Link from "next/link";
-import "bootstrap/dist/css/bootstrap.css"
 import styles from "../styles/Header.module.css";
 import { useEffect } from "react";
 import stickyHeader from "../modules/HeaderSticky";
