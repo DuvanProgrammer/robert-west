@@ -1,6 +1,5 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import "bootstrap/dist/css/bootstrap.css"
 import styles from "../../styles/fotografias.module.css"
 import SubheaderSmall from "../../components/SubheaderSmall"
 import ListCategories from "../../components/ListCategories"
