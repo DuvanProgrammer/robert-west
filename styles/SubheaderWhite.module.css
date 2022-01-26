@@ -30,35 +30,42 @@
 .rwSubheaderw__content p{
     color: #3E3E3E;
     font-size: 20px;
+    padding-right: 2em;
 }
 .rwSubheaderw__info{
     width: 660px;
     padding-top: 9em;
     float: right;
 }
-.rwSubheaderb__text{
+.rwSubheaderw__text{
     height: 402px;
+}
+.rwSubheaderwScroll{
     overflow-y: scroll;
 }
-.rwSubheaderb__text::-webkit-scrollbar{
+.rwSubheaderw__text::-webkit-scrollbar{
     width: 8px;
-    background-color: #3E3E3E;
+    background-color: #C4C4C4;
     border-radius: 10px;
 }
-.rwSubheaderb__text::-webkit-scrollbar-thumb{
-    background-color: #676767;
+.rwSubheaderw__text::-webkit-scrollbar-thumb{
+    background-color: #8A8A8A;
     border-radius: 10px;
 }
-.rwSubheaderb__btn{
+.rwSubheaderw__btn{
     text-align: right;
     margin-top: 4em;
+    display: none;
 }
-.rwSubheaderb__btn a{
-    background-color: white;
+.rwSubheaderwButton{
+    display: block;
+}
+.rwSubheaderw__btn a{
+    background-color: black;
     display: inline-flex;
     height: 30px;
     border-radius: 20px;
-    color: black;
+    color: white;
     font-size: 14px;
     text-decoration: none;
     align-items: center;
@@ -67,7 +74,7 @@
     font-family: 'Poppins', sans-serif;
     transition: all .4s;
 }
-.rwSubheaderb__btn a:hover{
+.rwSubheaderw__btn a:hover{
     background-color: #636363;
     color: white;
 }

@@ -37,7 +37,7 @@
     padding-top: 7em;
     float: right;
 }
-.rwSubheaderb__text{
+.rwSubheaderb__text{ 
     height: 402px;
     overflow-y: scroll;
 }
