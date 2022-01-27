@@ -10,6 +10,8 @@ import Cardsection from "../../components/Cardsection"
 import ImagenPrueba from "../../public/img/card-img.png"
 import ImagenMapa from "../../public/img/choco-mapa-1.png"
 import Image from "next/image"
+import SimpleReactLightbox from 'simple-react-lightbox'
+import { SRLWrapper } from "simple-react-lightbox";
 
 export default function fotrografia(){
     return (
@@ -51,23 +53,28 @@ export default function fotrografia(){
                             Act Productivas 1 (19)
                             </span>
                         </div>
+                        <SimpleReactLightbox>
+                        <SRLWrapper>
                         <div className="row">
                             <div className="col-12 col-md-4 mb-4">
                                 <CardPhoto
                                 imagen={ImgCardPhoto}
-                                link="#"
+                                link={ImgCardPhoto}
+                                alt="Imagen 1"
                                 />
                             </div>
                             <div className="col-12 col-md-4 mb-4">
                             <CardPhoto
                                 imagen={ImgCardPhoto}
                                 link="#"
+                                alt="Imagen 2"
                                 />
                             </div>
                             <div className="col-12 col-md-4 mb-4">
                             <CardPhoto
                                 imagen={ImgCardPhoto}
                                 link="#"
+                                alt="Imagen 3"
                                 />
                             </div>
                             <div className="col-12 col-md-6 mb-4">
@@ -75,6 +82,7 @@ export default function fotrografia(){
                                 imagen={ImgCardPhoto}
                                 link="#"
                                 horizontal={true}
+                                alt="Imagen 4"
                                 />
                             </div>
                             <div className="col-12 col-md-6 mb-4">
@@ -82,6 +90,7 @@ export default function fotrografia(){
                                 imagen={ImgCardPhoto}
                                 link="#"
                                 horizontal={true}
+                                alt="Imagen 5"
                                 />
                             </div>
                             <div className="col-12 col-md-6 mb-4">
@@ -89,6 +98,7 @@ export default function fotrografia(){
                                 imagen={ImgCardPhoto}
                                 link="#"
                                 horizontal={true}
+                                alt="Imagen 6"
                                 />
                             </div>
                             <div className="col-12 col-md-6 mb-4">
@@ -96,6 +106,7 @@ export default function fotrografia(){
                                 imagen={ImgCardPhoto}
                                 link="#"
                                 horizontal={true}
+                                alt="Imagen 7"
                                 />
                             </div>
                             <div className="col-12 col-md-6 mb-4">
@@ -103,6 +114,7 @@ export default function fotrografia(){
                                 imagen={ImgCardPhoto}
                                 link="#"
                                 horizontal={true}
+                                alt="Imagen 8"
                                 />
                             </div>
                             <div className="col-12 col-md-6 mb-4">
@@ -110,6 +122,7 @@ export default function fotrografia(){
                                 imagen={ImgCardPhoto}
                                 link="#"
                                 horizontal={true}
+                                alt="Imagen 9"
                                 />
                             </div>
                             <div className="row mt-5">
@@ -118,6 +131,9 @@ export default function fotrografia(){
                                 />
                             </div>
                         </div>
+                        
+                        </SRLWrapper>
+                        </SimpleReactLightbox>
                     </div>
                 </div>
                 <div className={`row ${styles.rwCategoriesCar}`}>

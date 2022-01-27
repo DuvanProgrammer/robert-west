@@ -2,23 +2,22 @@ import styles from "../styles/CardPhoto.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function CardPhoto({ imagen, link, horizontal }) {
+export default function CardPhoto({ imagen, link, horizontal, alt }) {
 
     let modeClass = ""
     if(horizontal){
     modeClass = styles.rwCardPhotoLinkHorizontal
 }
   return (
-    <Link
-      href={link}>
-        <a className={`${modeClass} ${styles.rwCardPhotoLink}`}>
-          <Image
-            className={styles.rwCardPhotoFondo}
-            src={imagen}
-            objectFit="cover"
-            layout="fill"
-          />
-          <div className={styles.rwCardPhotoContIcon}>
+    <a className={`${modeClass} ${styles.rwCardPhotoLink}`} href={link}>
+      <Image
+        className={styles.rwCardPhotoFondo}
+        src={imagen}
+        objectFit="cover"
+        layout="fill"
+        alt={alt}
+      />
+      <div className={styles.rwCardPhotoContIcon}>
               <svg
                 width="40"
                 height="40"
@@ -41,8 +40,7 @@ export default function CardPhoto({ imagen, link, horizontal }) {
                   stroke-linejoin="round"
                 />
               </svg>
-          </div>
-        </a>
-      </Link>
+      </div>
+    </a>
   );
 }
