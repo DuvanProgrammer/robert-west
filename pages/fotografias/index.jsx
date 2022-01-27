@@ -23,17 +23,6 @@ export default function fotrografia() {
       <div className={`container ${styles.rwArchive}`}>
         <div className="row">
           <div className="col-12 col-md-3">
-            <div className={styles.rwColections}>
-              <h3>COLECCIONES</h3>
-              <div className={styles.rwContCheck}>
-                <input type="checkbox" />
-                <span>Negativos</span>
-              </div>
-              <div className={styles.rwContCheck}>
-                <input type="checkbox" />
-                <span>Rollos</span>
-              </div>
-            </div>
             <div className={styles.rwCategories}>
               <h3>CATEGORÍAS</h3>
               <ListCategories />
