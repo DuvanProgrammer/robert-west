@@ -4,6 +4,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    transition: all .4s;
 }
 
 .rwCardPhotoLinkHorizontal{
@@ -29,13 +30,19 @@
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
     z-index: 2;
-    transition: .4s;
     pointer-events: none;
+    transition: all .4s;
+    opacity: .8;
 }
 
 .rwCardPhotoLink:hover .rwCardPhotoContIcon{
+    opacity: 1;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.rwCardPhotoContIcon svg path{
+    transition: all .7s;
 }
 
 .rwCardPhotoLink:hover .rwCardPhotoContIcon svg path{
