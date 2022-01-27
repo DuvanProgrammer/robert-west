@@ -6,6 +6,7 @@
 }
 .rwListCat ul{
     padding: 0;
+    list-style: none;
 }
 .rwListCat li span{
     color: #A6A6A6;
@@ -37,4 +38,10 @@
 }
 .rwListCatSubitem:hover span{
     color: black;
+}
+.rwContCheck{
+    margin-bottom: 2px;
+}
+.rwContCheck span{
+    margin-left: .7em;
 }
