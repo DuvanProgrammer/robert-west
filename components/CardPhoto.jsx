@@ -17,7 +17,7 @@ export default function CardPhoto({ imagen, link, horizontal, alt }) {
         layout="fill"
         alt={alt}
       />
-      <div className={styles.rwCardPhotoContIcon}>
+      <a className={styles.rwCardPhotoContIcon} href={link}>
               <svg
                 width="40"
                 height="40"
@@ -40,7 +40,7 @@ export default function CardPhoto({ imagen, link, horizontal, alt }) {
                   stroke-linejoin="round"
                 />
               </svg>
-      </div>
+      </a>
     </a>
   );
 }
