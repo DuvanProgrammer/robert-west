@@ -58,14 +58,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -88,14 +88,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -118,14 +118,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -148,14 +148,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -178,14 +178,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -208,14 +208,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -238,14 +238,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -268,14 +268,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -298,14 +298,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -328,14 +328,14 @@ export default function ListCategories() {
               <path
                 d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z"
                 stroke="#A6A6A6"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path
                 d="M9.5 15L13.5 11L9.5 7"
                 stroke="#A6A6A6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
