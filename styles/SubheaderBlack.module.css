@@ -72,3 +72,7 @@
     background-color: #636363;
     color: white;
 }
+
+.rwSubheaderwScroll{
+    overflow-y: scroll;
+}

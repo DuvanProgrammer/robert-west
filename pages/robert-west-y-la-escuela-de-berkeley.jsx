@@ -19,51 +19,45 @@ export default function escuela() {
         <div>
             <Header dark={true} fixed={true}
             />
-            <div data-aos="fade-left"
-                 data-aos-duration="1200">
+            <div>
                 <SubheaderBlack
+                    scroll={true}
+                    button={true}
+                    imagen={"/img/subheader-black.png"}
                     title="ROBERT WEST"
                     subtitle="y la escuela de Berkeley"
                 />
             </div>
             <div className="container mb-5">
-            <div className="row">
-                <div className="col-12 col-md-3"
-                     data-aos="fade-up"
-                     data-aos-duration="1200">
-                <Cardsection 
-                    imagen={ImagenPrueba} 
-                    title="CATEGORIAS"
-                    link="#"
-                />
-                </div>
-                <div className="col-12 col-md-3"
-                     data-aos="fade-up"
-                     data-aos-duration="1500">
-                <Cardsection 
-                    imagen={ImagenPrueba} 
-                    title="CATEGORIAS"
-                    link="#"
-                />
-                </div>
-                <div className="col-12 col-md-3"
-                     data-aos="fade-up"
-                     data-aos-duration="1800">
-                <Cardsection 
-                    imagen={ImagenPrueba} 
-                    title="CATEGORIAS"
-                    link="#"
-                />
-                </div>
-                <div className="col-12 col-md-3"
-                     data-aos="fade-up"
-                     data-aos-duration="2100">
-                <Cardsection 
-                    imagen={ImagenPrueba} 
-                    title="CATEGORIAS"
-                    link="#"
-                />
-                </div>
+                <div className="row">
+                    <div className="col-12 col-md-3" >
+                    <Cardsection  
+                        imagen={ImagenPrueba} 
+                        title="CATEGORIAS"
+                        link="#"
+                    />
+                    </div>
+                    <div className="col-12 col-md-3">
+                    <Cardsection 
+                        imagen={ImagenPrueba} 
+                        title="CATEGORIAS"
+                        link="#"
+                    />
+                    </div>
+                    <div className="col-12 col-md-3">
+                    <Cardsection 
+                        imagen={ImagenPrueba} 
+                        title="CATEGORIAS"
+                        link="#"
+                    />
+                    </div>
+                    <div className="col-12 col-md-3">
+                    <Cardsection 
+                        imagen={ImagenPrueba} 
+                        title="CATEGORIAS"
+                        link="#"
+                    />
+                    </div>
                 </div>
             </div>
             <Footer />

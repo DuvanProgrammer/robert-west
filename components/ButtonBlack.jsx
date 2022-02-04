@@ -5,7 +5,7 @@ export default function ButtonBlack(link) {
   return (
     <div className={styles.rwButtonBlackCont}>
       <Link href={link}>
-        <a href="#" className={styles.rwButtonBlack}>CARGAR MÁS</a>
+        <button className={styles.rwButtonBlack}>CARGAR MÁS</button>
       </Link>
     </div>
   );
