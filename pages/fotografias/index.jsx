@@ -26,6 +26,7 @@ export default function fotografias() {
             <div className={styles.rwCategories}>
               <h3>CATEGORÍAS</h3>
               <ListCategories />
+              
               <h3 className="mb-4">SECTORES</h3>
               <Image src={ImagenMapa} objectFit="cover"></Image>
             </div>
