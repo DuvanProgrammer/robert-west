@@ -16,17 +16,15 @@ export default function Cardsection({ imagen, title, link }) {
             />
             <div className={styles.rwCardsectionTitle}>
               <h2>{title}</h2>
-              <Link href="#">
-                <a>
-                  <Image
-                    className={styles.rwCardsectionView}
-                    src="/img/arrow-view.png"
-                    width={30}
-                    height={30}
-                    objectFit="cover"
-                  />
-                </a>
-              </Link>
+              <div>
+                <Image
+                  className={styles.rwCardsectionView}
+                  src="/img/arrow-view.png"
+                  width={30}
+                  height={30}
+                  objectFit="cover"
+                />
+              </div>
             </div>
           </div>
         </a>
