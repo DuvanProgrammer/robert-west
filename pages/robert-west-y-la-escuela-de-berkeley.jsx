@@ -2,6 +2,9 @@ import Header from "../components/Header";
 import SubheaderBlack from "../components/SubheaderBlack";
 import Cardsection from "../components/Cardsection";
 import ImagenPrueba from "../public/img/card-img.png";
+import ImagenPrueba2 from "../public/img/card-historia.png";
+import ImagenPrueba3 from "../public/img/card-fotografias.png";
+import ImagenPrueba4 from "../public/img/card-creditos.png";
 import Footer from "../components/Footer";
 import { useEffect } from 'react'
 import AOS from 'aos'
@@ -33,29 +36,29 @@ export default function escuela() {
                     <div className="col-12 col-md-3" >
                     <Cardsection  
                         imagen={ImagenPrueba} 
-                        title="CATEGORIAS"
-                        link="#"
+                        title="CATALOGOS"
+                        link="catalogos"
                     />
                     </div>
                     <div className="col-12 col-md-3">
                     <Cardsection 
-                        imagen={ImagenPrueba} 
-                        title="CATEGORIAS"
-                        link="#"
+                        imagen={ImagenPrueba2} 
+                        title="HISTORIA"
+                        link="historia"
                     />
                     </div>
                     <div className="col-12 col-md-3">
                     <Cardsection 
-                        imagen={ImagenPrueba} 
-                        title="CATEGORIAS"
-                        link="#"
+                        imagen={ImagenPrueba3} 
+                        title="FOTOGRAFIAS"
+                        link="fotografias"
                     />
                     </div>
                     <div className="col-12 col-md-3">
                     <Cardsection 
-                        imagen={ImagenPrueba} 
-                        title="CATEGORIAS"
-                        link="#"
+                        imagen={ImagenPrueba4} 
+                        title="CREDITOS"
+                        link="creditos"
                     />
                     </div>
                 </div>

@@ -48,14 +48,14 @@ export default function inicio() {
                     white={true}
                     fondo={FondoPrueba2}
                     title="HISTORIA"
-                    link="#"
+                    link="historia"
                 />
             </div>
             <div>
                 <Cardmenu
                     fondo={FondoPrueba3}
                     title="FOTOGRAFÍAS"
-                    link="#"
+                    link="fotografias"
                 />
             </div>
             <div>
@@ -63,14 +63,14 @@ export default function inicio() {
                     white={true}
                     fondo={FondoPrueba4}
                     title="CATÁLOGOS"
-                    link="#"
+                    link="catalogos"
                 />
             </div>
             <div>
                 <Cardmenu
                     fondo={FondoPrueba5}
-                    title="FOTOGRAFÍAS"
-                    link="#"
+                    title="CREDITOS"
+                    link="creditos"
                 />
             </div>
             <Footer />
