@@ -13,7 +13,8 @@ import Image from "next/image";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-export default function fotografias() {
+export default function fotografias({categories, items}) {
+  console.log(items)
   return (
     <div>
       <Header dark={true} fixed={true} />
@@ -25,7 +26,7 @@ export default function fotografias() {
           <div className="col-12 col-md-3">
             <div className={styles.rwCategories}>
               <h3>CATEGORÍAS</h3>
-              <ListCategories />
+              <ListCategories data={categories} />
               
               <h3 className="mb-4">SECTORES</h3>
               <Image src={ImagenMapa} objectFit="cover"></Image>
@@ -177,4 +178,23 @@ export default function fotografias() {
       <Footer />
     </div>
   );
+}
+
+export async function getStaticProps(context){
+  const url_base = "https://badac.uniandes.edu.co/robertwest/api/"
+  const endpoint_cats = "tags?sort_field=name"
+  const endpoint_items = "items?per_page=11"
+
+  const res = await fetch(url_base + endpoint_cats)
+  const categories = await res.json()
+
+  const resItems = await fetch(url_base + endpoint_items)
+  const items = await resItems.json()
+
+  return {
+      props:{
+        categories,
+        items
+      }
+  }
 }
