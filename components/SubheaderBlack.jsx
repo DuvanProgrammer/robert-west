@@ -96,7 +96,7 @@ export default function SubheaderBlack({
               que, debido a un desafortunado accidente sufrido durante una de
               sus caminatas diarias entre su casa y la universidad, el profesor
               West no se hallaba en el mismo estado en que lo conocí en
-              Berkeley. Pero 'Bob' West, como lo llaman sus amigos, estaba en
+              Berkeley. Pero &apos;Bob&apos; West, como lo llaman sus amigos, estaba en
               uno de sus mejores días. Tal vez la sorpresa que le teníamos
               contribuyó a su buen ánimo y a revivir su memoria. En efecto, ese
               mismo día, esculcando los cajones de su oficina, encontré unas
@@ -212,7 +212,7 @@ export default function SubheaderBlack({
               sus años de formación, es decir, del énfasis en el estudio de la
               influencia que las características físicas de la tierra tienen
               sobre las personas y las culturas. Su propuesta de hacer de la
-              geografía el estudio de 'paisajes culturales' fue clave para ese
+              geografía el estudio de &apos;paisajes culturales&apos; fue clave para ese
               cambio de dirección, y es tal vez por lo que más se le recuerda.
               Influenciado por autores alemanes tales como Alfred Hettner, Sauer
               consideraba que la tarea del geógrafo era dar cuenta del paisaje,
@@ -239,12 +239,12 @@ export default function SubheaderBlack({
               de manera separada, la geografía corre el riesgo de disolverse
               entre las ciencias humanas y las ciencias naturales. Por eso,
               durante décadas, muchos reconocieron que el estudio de la
-              interacción entre la naturaleza y 'el hombre' era tan central para
+              interacción entre la naturaleza y &apos;el hombre&apos; era tan central para
               la geografía como el estudio de regiones. Pero ha habido mucho
               menos consenso sobre la manera específica cómo ello debe lograrse.</p>
               <p>
               Sauer propuso el estudio de paisajes culturales (que a veces
-              también denominó 'morfología del paisaje' o 'áreas culturales ').
+              también denominó &apos;morfología del paisaje&apos; o &apos;áreas culturales &apos;).
               Tal vez la clave para entender esta propuesta está en el concepto
               de cultura. Según Sauer, cada grupo humano o cultura tiene un modo
               particular de relacionarse con el ambiente que lo rodea, evidente
@@ -451,8 +451,8 @@ export default function SubheaderBlack({
               Los científicos sociales pueden objetar que West haya ignorado las relaciones 
               de parentesco [..), la religión, la organización comunitaria y el
               gobierno; y los economistas y planificadores tal vez queden
-              perplejos al encontrar que no hay ni una referencia al 'desarrollo
-              económico' o a áreas atrasadas en las 254 sustanciosas páginas de
+              perplejos al encontrar que no hay ni una referencia al &apos;desarrollo
+              económico&apos; o a áreas atrasadas en las 254 sustanciosas páginas de
               texto y notas. Sin embargo, ello sólo refleja que el autor es un
               geógrafo de los geógrafos, un observador de campo de primera
               categoría con una curiosidad objetiva y enfocada sobre la faz de
@@ -486,7 +486,7 @@ export default function SubheaderBlack({
               que "La diferenciación de las cuencas del Atrato y el San Juan] se
               debe a un proceso de denostación piroclástica en tiempos
               pleistocénicos, al sur de Quibdó, y no como lo propone West por
-              causa de un levantamiento 'estructural que él denomina "Anticlinal
+              causa de un levantamiento &apos;estructural que él denomina "Anticlinal
               de Istmina... (82). Del mismo modo, algunas de las especies
               vegetales han recibido nuevos nombres científicos. Tal es el caso
               de la palma naidi, identificada por West como Euterpe
@@ -577,7 +577,7 @@ export default function SubheaderBlack({
               p.98-21. (1957) The Pacific Lowlands of Colombia, Baton Rouge,
               Louisiana State University Press. (1966) Middle America, Its lands
               and peoples (con John P. Augelli), Englewoods Cliffs,
-              Prentice-Hall. (1979) Carl Sauer's Fieldwork in Latin America, Ann
+              Prentice-Hall. (1979) Carl Sauer&apos;s Fieldwork in Latin America, Ann
               Arbor, University Microfilims International for the Department of
               Geography, Syracuse University. (1993) Sonora, Its Geographical
               Personality, Austin, University of Texas Press.
