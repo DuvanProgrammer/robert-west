@@ -11,7 +11,7 @@ import AOS from 'aos'
 
 import 'aos/dist/aos.css'
 
-export default function escuela() {
+export default function Escuela() {
     useEffect(() => {
         // here you can add your aos options
         AOS.init({

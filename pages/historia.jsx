@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import SubheaderWhite from "../components/SubheaderWhite";
-import Image from "next/image";
 import Cardsection from "../components/Cardsection";
 import ImagenPrueba from "../public/img/card-img.png";
 import ImagenPrueba2 from "../public/img/card-historia.png";
@@ -12,7 +11,7 @@ import AOS from 'aos'
 
 import 'aos/dist/aos.css'
 
-export default function historia(){
+export default function Historia(){
     useEffect(() => {
         // here you can add your aos options
         AOS.init({

@@ -3,7 +3,7 @@ import styles from "../styles/Header.module.css";
 import { useEffect } from "react";
 import stickyHeader from "../modules/HeaderSticky";
 
-export default function header({dark, fixed}) {
+export default function Header({dark, fixed}) {
 
   let modeFixed = ""
   if(fixed){

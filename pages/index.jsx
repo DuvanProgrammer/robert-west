@@ -13,7 +13,7 @@ import AOS from 'aos'
 
 import 'aos/dist/aos.css'
 
-export default function inicio() {
+export default function Inicio() {
     useEffect(() => {
         // here you can add your aos options
         AOS.init({
