@@ -8,7 +8,7 @@ import FondoPrueba3 from "../public/img/fondo-cardmenu3.png";
 import FondoPrueba4 from "../public/img/fondo-cardmenu4.png";
 import FondoPrueba5 from "../public/img/fondo-cardmenu5.png";
 
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 
 import 'aos/dist/aos.css'

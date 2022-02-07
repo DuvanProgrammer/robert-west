@@ -6,7 +6,7 @@ import ImagenPrueba2 from "../public/img/card-historia.png";
 import ImagenPrueba3 from "../public/img/card-fotografias.png";
 import ImagenPrueba4 from "../public/img/card-creditos.png";
 import Footer from "../components/Footer";
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 
 import 'aos/dist/aos.css'
