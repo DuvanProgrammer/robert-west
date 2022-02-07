@@ -8,6 +8,9 @@ import ImgCardPhoto from "../../public/img/img-card-photo.png";
 import ButtonBlack from "../../components/ButtonBlack";
 import Cardsection from "../../components/Cardsection";
 import ImagenPrueba from "../../public/img/card-img.png";
+import ImagenPrueba2 from "../../public/img/card-historia.png";
+import ImagenPrueba3 from "../../public/img/card-fotografias.png";
+import ImagenPrueba4 from "../../public/img/card-creditos.png";
 import ImagenMapa from "../../public/img/choco-mapa-1.png";
 import Image from "next/image";
 import SimpleReactLightbox from "simple-react-lightbox";
@@ -149,28 +152,28 @@ export default function fotografias() {
         </div>
         <div className={`row ${styles.rwCategoriesCar}`}>
           <div className="col-12 col-md-3">
-            <Cardsection imagen={ImagenPrueba} title="CATEGORIAS" link="#" />
+            <Cardsection imagen={ImagenPrueba} title="CATÁLOGOS" link="http://localhost:3000/catalogos" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <Cardsection imagen={ImagenPrueba} title="CATEGORIAS" link="#" />
+            <Cardsection imagen={ImagenPrueba2} title="HISTORIA" link="http://localhost:3000/historia" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="1800"
           >
-            <Cardsection imagen={ImagenPrueba} title="CATEGORIAS" link="#" />
+            <Cardsection imagen={ImagenPrueba3} title="FOTOGRAFÍAS" link="http://localhost:3000/fotografias" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="2100"
           >
-            <Cardsection imagen={ImagenPrueba} title="CATEGORIAS" link="#" />
+            <Cardsection imagen={ImagenPrueba4} title="CRÉDITOS" link="http://localhost:3000/creditos" />
           </div>
         </div>
       </div>
