@@ -36,7 +36,7 @@ export default function escuela() {
                     <div className="col-12 col-md-3" >
                     <Cardsection  
                         imagen={ImagenPrueba} 
-                        title="CATALOGOS"
+                        title="CATÁLOGOS"
                         link="catalogos"
                     />
                     </div>
@@ -50,14 +50,14 @@ export default function escuela() {
                     <div className="col-12 col-md-3">
                     <Cardsection 
                         imagen={ImagenPrueba3} 
-                        title="FOTOGRAFIAS"
+                        title="FOTOGRAFÍAS"
                         link="fotografias"
                     />
                     </div>
                     <div className="col-12 col-md-3">
                     <Cardsection 
                         imagen={ImagenPrueba4} 
-                        title="CREDITOS"
+                        title="CRÉDITOS"
                         link="creditos"
                     />
                     </div>

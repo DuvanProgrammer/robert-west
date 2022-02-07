@@ -4,6 +4,9 @@ import SubheaderWhite from "../components/SubheaderWhite";
 import Image from "next/image";
 import Cardsection from "../components/Cardsection";
 import ImagenPrueba from "../public/img/card-img.png";
+import ImagenPrueba2 from "../public/img/card-historia.png";
+import ImagenPrueba3 from "../public/img/card-fotografias.png";
+import ImagenPrueba4 from "../public/img/card-creditos.png";
 import { useEffect } from 'react'
 import AOS from 'aos'
 
@@ -30,44 +33,36 @@ export default function historia(){
                 />
             </div>
             <br></br>
-            <div className="container mb-5 mt-5">
-            <div className="row">
-                <div className="col-12 col-md-3"
-                     data-aos="fade-in"
-                     data-aos-duration="1200">
-                <Cardsection 
-                    imagen={ImagenPrueba} 
-                    title="CATEGORIAS"
-                    link="#"
-                />
-                </div>
-                <div className="col-12 col-md-3"
-                     data-aos="fade-in"
-                     data-aos-duration="1500">
-                <Cardsection 
-                    imagen={ImagenPrueba} 
-                    title="CATEGORIAS"
-                    link="#"
-                />
-                </div>
-                <div className="col-12 col-md-3"
-                     data-aos="fade-in"
-                     data-aos-duration="1800">
-                <Cardsection 
-                    imagen={ImagenPrueba} 
-                    title="CATEGORIAS"
-                    link="#"
-                />
-                </div>
-                <div className="col-12 col-md-3"
-                     data-aos="fade-in"
-                     data-aos-duration="2100">
-                <Cardsection 
-                    imagen={ImagenPrueba} 
-                    title="CATEGORIAS"
-                    link="#"
-                />
-                </div>
+            <div className="container mb-5">
+                <div className="row">
+                    <div className="col-12 col-md-3" >
+                    <Cardsection  
+                        imagen={ImagenPrueba} 
+                        title="CATÁLOGOS"
+                        link="catalogos"
+                    />
+                    </div>
+                    <div className="col-12 col-md-3">
+                    <Cardsection 
+                        imagen={ImagenPrueba2} 
+                        title="HISTORIA"
+                        link="historia"
+                    />
+                    </div>
+                    <div className="col-12 col-md-3">
+                    <Cardsection 
+                        imagen={ImagenPrueba3} 
+                        title="FOTOGRAFÍAS"
+                        link="fotografias"
+                    />
+                    </div>
+                    <div className="col-12 col-md-3">
+                    <Cardsection 
+                        imagen={ImagenPrueba4} 
+                        title="CRÉDITOS"
+                        link="creditos"
+                    />
+                    </div>
                 </div>
             </div>
             <Footer />

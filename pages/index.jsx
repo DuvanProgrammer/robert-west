@@ -69,7 +69,7 @@ export default function inicio() {
             <div>
                 <Cardmenu
                     fondo={FondoPrueba5}
-                    title="CREDITOS"
+                    title="CRÉDITOS"
                     link="creditos"
                 />
             </div>
