@@ -13,7 +13,7 @@ import Image from "next/image";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-export default function fotografias() {
+export default function fotografias({items}) {
   return (
     <div>
       <Header dark={true} fixed={true} />
@@ -78,73 +78,22 @@ export default function fotografias() {
             <SimpleReactLightbox>
               <SRLWrapper>
                 <div className="row">
-                  <div className="col-12 col-md-4 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link={ImgCardPhoto}
-                      alt="Imagen 1"
-                    />
-                  </div>
-                  <div className="col-12 col-md-4 mb-4">
-                    <CardPhoto imagen={ImgCardPhoto} link="#" alt="Imagen 2" />
-                  </div>
-                  <div className="col-12 col-md-4 mb-4">
-                    <CardPhoto imagen={ImgCardPhoto} link="#" alt="Imagen 3" />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 4"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 5"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 6"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 7"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 8"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 9"
-                    />
-                  </div>
-                  <div className="row mt-5">
-                    <ButtonBlack link="#" />
-                  </div>
+                  {items.map(({id, file_urls}) =>(
+                       <div key={id} className="col-12 col-md-4 mb-4">
+                        <CardPhoto
+                          imagen={file_urls.thumbnail}
+                          link={file_urls.fullsize}
+                          alt="Imagen 1"
+                        />
+                      </div>
+                  ))}
                 </div>
               </SRLWrapper>
             </SimpleReactLightbox>
+
+            <div className="row mt-5">
+              <ButtonBlack link="#" />
+            </div>
           </div>
         </div>
         <div className={`row ${styles.rwCategoriesCar}`}>
@@ -177,4 +126,16 @@ export default function fotografias() {
       <Footer />
     </div>
   );
+}
+
+
+export async function getStaticProps(){
+  const res = await fetch('https://badac.uniandes.edu.co/robertwest/api/files?per_page=12')
+  const items = await res.json()
+
+  return {
+      props: {
+        items
+      }
+  }
 }
