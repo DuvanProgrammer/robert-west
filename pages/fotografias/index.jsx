@@ -8,12 +8,28 @@ import ImgCardPhoto from "../../public/img/img-card-photo.png";
 import ButtonBlack from "../../components/ButtonBlack";
 import Cardsection from "../../components/Cardsection";
 import ImagenPrueba from "../../public/img/card-img.png";
+import ImagenPrueba2 from "../../public/img/card-historia.png";
+import ImagenPrueba3 from "../../public/img/card-fotografias.png";
+import ImagenPrueba4 from "../../public/img/card-creditos.png";
 import ImagenMapa from "../../public/img/choco-mapa-1.png";
 import Image from "next/image";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
+import { useRouter } from "next/router";
 
-export default function fotografias({categories, items}) {
+
+export default function Fotografias({categories, items, page}) {
+  const router = useRouter()
+
+  const handlePrev = (e) => {
+    e.preventDefault()
+    router.push(`/fotografias?page=${page - 1}`)
+  }
+
+  const handleNext = (e) => {
+    e.preventDefault()
+    router.push(`/fotografias?page=${page + 1}`)
+  }
   return (
     <div>
       <Header dark={true} fixed={true} />
@@ -78,99 +94,50 @@ export default function fotografias({categories, items}) {
             <SimpleReactLightbox>
               <SRLWrapper>
                 <div className="row">
-                  <div className="col-12 col-md-4 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link={ImgCardPhoto}
-                      alt="Imagen 1"
-                    />
-                  </div>
-                  <div className="col-12 col-md-4 mb-4">
-                    <CardPhoto imagen={ImgCardPhoto} link="#" alt="Imagen 2" />
-                  </div>
-                  <div className="col-12 col-md-4 mb-4">
-                    <CardPhoto imagen={ImgCardPhoto} link="#" alt="Imagen 3" />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 4"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 5"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 6"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 7"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 8"
-                    />
-                  </div>
-                  <div className="col-12 col-md-6 mb-4">
-                    <CardPhoto
-                      imagen={ImgCardPhoto}
-                      link="#"
-                      horizontal={true}
-                      alt="Imagen 9"
-                    />
-                  </div>
-                  <div className="row mt-5">
-                    <ButtonBlack link="#" />
-                  </div>
+                  {items.map(({id, file_urls}) =>(
+                       <div key={id} className="col-12 col-md-4 mb-4">
+                        <CardPhoto
+                          imagen={file_urls.thumbnail}
+                          link={file_urls.fullsize}
+                          alt="Imagen 1"
+                        />
+                      </div>
+                  ))}
                 </div>
               </SRLWrapper>
             </SimpleReactLightbox>
+
+            <div className="row mt-5">
+              {/* <ButtonBlack /> */}
+              <a href="#" onClick={handlePrev} className={styles.rwButtonBlack} style={{display: "inline-block", width:"auto", margin: "auto"}}>ANTERIOR</a>
+              <a href="#" onClick={handleNext} className={styles.rwButtonBlack} style={{display: "inline-block", width:"auto", margin: "auto"}}>SIGUIENTE</a>
+            </div>
           </div>
         </div>
         <div className={`row ${styles.rwCategoriesCar}`}>
           <div className="col-12 col-md-3">
-            <Cardsection imagen={ImagenPrueba} title="CATEGORIAS" link="#" />
+            <Cardsection imagen={ImagenPrueba} title="CATÁLOGOS" link="/catalogos" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <Cardsection imagen={ImagenPrueba} title="CATEGORIAS" link="#" />
+            <Cardsection imagen={ImagenPrueba2} title="HISTORIA" link="/historia" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="1800"
           >
-            <Cardsection imagen={ImagenPrueba} title="CATEGORIAS" link="#" />
+            <Cardsection imagen={ImagenPrueba3} title="FOTOGRAFÍAS" link="/fotografias" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="2100"
           >
-            <Cardsection imagen={ImagenPrueba} title="CATEGORIAS" link="#" />
+            <Cardsection imagen={ImagenPrueba4} title="CRÉDITOS" link="/creditos" />
           </div>
         </div>
       </div>
@@ -179,21 +146,27 @@ export default function fotografias({categories, items}) {
   );
 }
 
-export async function getStaticProps(context){
+export async function getServerSideProps({query: {page = 1}}){
+
+  const currPage = +page === 1 ? 0 : (+page - 1) * 12
+
   const url_base = "https://badac.uniandes.edu.co/robertwest/api/"
   const endpoint_cats = "tags?sort_field=name"
   const endpoint_items = "items?per_page=11"
+  const endpoint_files =  `files?per_page=12&page=${currPage}`
 
+  // console.log(query)
   const res = await fetch(url_base + endpoint_cats)
   const categories = await res.json()
 
-  const resItems = await fetch(url_base + endpoint_items)
+  const resItems = await fetch(url_base + endpoint_files)
   const items = await resItems.json()
 
   return {
       props:{
         categories,
-        items
+        items,
+        page: +page
       }
   }
 }

@@ -6,12 +6,12 @@ import ImagenPrueba2 from "../public/img/card-historia.png";
 import ImagenPrueba3 from "../public/img/card-fotografias.png";
 import ImagenPrueba4 from "../public/img/card-creditos.png";
 import Footer from "../components/Footer";
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 
 import 'aos/dist/aos.css'
 
-export default function escuela() {
+export default function Escuela() {
     useEffect(() => {
         // here you can add your aos options
         AOS.init({
@@ -36,7 +36,7 @@ export default function escuela() {
                     <div className="col-12 col-md-3" >
                     <Cardsection  
                         imagen={ImagenPrueba} 
-                        title="CATALOGOS"
+                        title="CATÁLOGOS"
                         link="catalogos"
                     />
                     </div>
@@ -50,14 +50,14 @@ export default function escuela() {
                     <div className="col-12 col-md-3">
                     <Cardsection 
                         imagen={ImagenPrueba3} 
-                        title="FOTOGRAFIAS"
+                        title="FOTOGRAFÍAS"
                         link="fotografias"
                     />
                     </div>
                     <div className="col-12 col-md-3">
                     <Cardsection 
                         imagen={ImagenPrueba4} 
-                        title="CREDITOS"
+                        title="CRÉDITOS"
                         link="creditos"
                     />
                     </div>

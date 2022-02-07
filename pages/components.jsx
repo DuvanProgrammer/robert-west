@@ -11,7 +11,7 @@ import CardPhoto from "../components/CardPhoto";
 import ImgCardPhoto from  "../public/img/img-card-photo.png";
 import ButtonBlack from "../components/ButtonBlack";
 
-export default function components() {
+export default function Components() {
   return (
     <div>
       <Header

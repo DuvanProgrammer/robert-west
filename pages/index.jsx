@@ -8,12 +8,12 @@ import FondoPrueba3 from "../public/img/fondo-cardmenu3.png";
 import FondoPrueba4 from "../public/img/fondo-cardmenu4.png";
 import FondoPrueba5 from "../public/img/fondo-cardmenu5.png";
 
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 
 import 'aos/dist/aos.css'
 
-export default function inicio() {
+export default function Inicio() {
     useEffect(() => {
         // here you can add your aos options
         AOS.init({
@@ -69,7 +69,7 @@ export default function inicio() {
             <div>
                 <Cardmenu
                     fondo={FondoPrueba5}
-                    title="CREDITOS"
+                    title="CRÉDITOS"
                     link="creditos"
                 />
             </div>

@@ -17,6 +17,7 @@ export default function CardPhoto({ imagen, link, horizontal, alt }) {
         layout="fill"
         alt={alt}
         priority
+        srl_gallery_image="true"
       />
       <div className={styles.rwCardPhotoContIcon}>
               <svg

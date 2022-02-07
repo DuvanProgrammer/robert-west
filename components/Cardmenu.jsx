@@ -25,6 +25,7 @@ export default function Cardmenu({fondo, title, subtitle, link, white}) {
         src={fondo}
         layout="fill"
         objectFit="cover"
+        priority
       />
       <div 
         data-aos={white ? "fade-left" : "fade-right"}
