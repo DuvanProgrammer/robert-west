@@ -1,12 +1,10 @@
 import styles from "../styles/ButtonBlack.module.css";
 import Link from "next/link";
 
-export default function ButtonBlack(link) {
+export default function ButtonBlack({link}) {
   return (
-    <div className={styles.rwButtonBlackCont}>
-      <Link href={link}>
-        <button className={styles.rwButtonBlack}>CARGAR MÁS</button>
-      </Link>
-    </div>
+    <Link href={link} as={link}>
+      <a className={styles.rwButtonBlack} style={{display: "inline-block", width:"auto", margin: "auto"}}>CARGAR MÁS</a>
+    </Link>
   );
 }

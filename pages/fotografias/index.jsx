@@ -95,7 +95,7 @@ export default function fotografias({items}) {
             </SimpleReactLightbox>
 
             <div className="row mt-5">
-              <ButtonBlack link="#" />
+              <ButtonBlack link="/" />
             </div>
           </div>
         </div>
