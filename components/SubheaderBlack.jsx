@@ -86,7 +86,7 @@ export default function SubheaderBlack({
               del libro y me encargó del trabajo. Una vez terminado me puse en
               contacto con la Universidad de Luisiana en Baton Rouge, donde West
               trabajó por varias décadas, para preguntar sobre el paradero de
-              las fotos del libro. "Aquí están," me respondió William Davidson,
+              las fotos del libro. &quot;Aquí están,&quot; me respondió William Davidson,
               director del Departamento de Geografía y Antropología, y gran
               amigo de West. Me sugirió que fuera a buscarlas yo misma, ya que
               encontrar las fotos del libro, entre tantas que West tomó durante
@@ -141,16 +141,16 @@ export default function SubheaderBlack({
               Aunque la región lo llenó de curiosidad, no parece que haya estado
               especialmente fascinado por sus montes, ríos y pueblos. Cuando le
               pregunté si había algún sitio que le hubiera gustado en especial,
-              se quedó pensando y luego me dijo "sinceramente no." Además de los
+              se quedó pensando y luego me dijo &quot;sinceramente no.&quot; Además de los
               trajines habituales, le dio malaria y también fambresia. Para
               curarse de esta última enfermedad tuvo que ir a Cali a que lo
               tratara un doctor que había vivido en Etiopía. Al hablar de la
-              comida en el libro no muestra nostalgia por los "insípidos"
-              plátanos verdes o por "la monotonía del maloliente pescado seco
+              comida en el libro no muestra nostalgia por los &quot;insípidos&quot;
+              plátanos verdes o por &quot;la monotonía del maloliente pescado seco
               que el viajero normalmente debe cargar para sus bogas en los
-              viajes." Las cartas de presentación de su gobierno atenuaron un
+              viajes.&quot; Las cartas de presentación de su gobierno atenuaron un
               poco las dificultades del trabajo, ya que según nos dijo, fueron
-              siempre un mágico ábrete sésamo." Tal vez uno de los aspectos más
+              siempre un mágico ábrete sésamo.&quot; Tal vez uno de los aspectos más
               agradables de sus viajes fue la compañía de sus asistentes, guías,
               bogas y cargueros. Hasta hace poco tuvo una foto de dos de ellos
               en su oficina (Anderson, 1998) y esa tarde tuve la impresión de
@@ -318,19 +318,19 @@ export default function SubheaderBlack({
               estudio de una región relativamente poco estudiada de Colombia,
               sino que es también un muy buen ejemplo del tipo de geografía que
               caracterizó a la llamada escuela de Berkeley. La definición del
-              objeto de estudio del libro representa la primera pista: "las
+              objeto de estudio del libro representa la primera pista: &quot;las
               tierras bajas del Pacifico colombiano y áreas adyacentes son
-              definidas como un área cultural. Si el área de estudio "tiene
-              alguna unidad física," nos dice West, "ésta está dada por su clima
+              definidas como un área cultural. Si el área de estudio &quot;tiene
+              alguna unidad física,&quot; nos dice West, &quot;ésta está dada por su clima
               húmedo y cálido, y por el denso bosque tropical que constituye la
-              cobertura vegetal." Pero estos rasgos se extienden hacia el norte
-              y hacia el sur del área considerada en el libro. "Los límites del
+              cobertura vegetal.&quot; Pero estos rasgos se extienden hacia el norte
+              y hacia el sur del área considerada en el libro. &quot;Los límites del
               área de estudio, por lo tanto, están determinados más por aspectos
               culturales que por aspectos físicos. En términos culturales, el
               área se define principalmente por el predominio de la población
               negra; por una forma común de vida basada en la agricultura de
               subsistencia, la pesca y la minería primitiva; y por su desarrollo
-              histórico común".</p> 
+              histórico común&quot;.</p> 
               <p>
               El libro está dividido en dos partes: el medio
               físico y el medio cultural. La primera es una exposición sobre la
@@ -483,10 +483,10 @@ export default function SubheaderBlack({
               Mojica (1993) en un artículo sobre la geología de la región
               aceptan las unidades geomorfológicas definidas por West, pero
               difieren en ciertos aspectos de su análisis. Los autores explican
-              que "La diferenciación de las cuencas del Atrato y el San Juan] se
+              que &quot;La diferenciación de las cuencas del Atrato y el San Juan] se
               debe a un proceso de denostación piroclástica en tiempos
               pleistocénicos, al sur de Quibdó, y no como lo propone West por
-              causa de un levantamiento &apos;estructural que él denomina "Anticlinal
+              causa de un levantamiento &apos;estructural que él denomina &quot;Anticlinal
               de Istmina... (82). Del mismo modo, algunas de las especies
               vegetales han recibido nuevos nombres científicos. Tal es el caso
               de la palma naidi, identificada por West como Euterpe
@@ -521,20 +521,20 @@ export default function SubheaderBlack({
               <p>
               Bibliografia </p>
               <p>
-              Anderson, Katherine (1998) "Bob West, Geographer," en Geoscience and Man, Vol.35:
+              Anderson, Katherine (1998) &quot;Bob West, Geographer,&quot; en Geoscience and Man, Vol.35:
               Latin American Geography, Historical-Geographical Essays,
               1941-1998, by Robert West, Baton Rouge, Louisiana State
               University. </p>
               <p>
-              Davidson, William V. y James Parsons (1980) "Robert C.
-              West, Geographer," en Geoscience and Man, Vol.21: Historical
+              Davidson, William V. y James Parsons (1980) &quot;Robert C.
+              West, Geographer,&quot; en Geoscience and Man, Vol.21: Historical
               Geography of Latin America, Papers in honor of Robert West,
               William V. Davidson y James Parsons (Eds.), Baton Rouge, Louisiana
               State University. </p>
               <p>
-              Galvis, Jaime y Jairo Mojica (1993) "Geología,"
+              Galvis, Jaime y Jairo Mojica (1993) &quot;Geología,&quot;
               en Colombia Pacifico, Bogotá, Fondo FEN y Proyecto Biopacifico.
-              Gutiérrez de Pineda, Virginia (1958) "El libro de la semana," en
+              Gutiérrez de Pineda, Virginia (1958) &quot;El libro de la semana,&quot; en
               Cromos, No.2123, </p>
               <p>
               Bogotá. </p>
@@ -542,21 +542,21 @@ export default function SubheaderBlack({
               Kenzer, Martin S. (Ed.) (1987) Carl O.
               Sauer, A Tribute, Corvallis, Oregon State University Press.</p>
               <p>
-              Leighly, Jonh (1963) "Introduction," en Land and Life, A Selection
+              Leighly, Jonh (1963) &quot;Introduction,&quot; en Land and Life, A Selection
               of Writings of Carl </p>
               <p>
               Ortwin Sauer, John Leighly (Ed.), Berkeley,
               University of California Press. </p>
               <p>
-              Parsons, James (1958) "The Pacific
+              Parsons, James (1958) &quot;The Pacific
               Lowlands of Colombia, A Negroid Area of the American Tropics, by
-              Robert C. West," in Economic Geography, Vol. 34, No.4. Sauer, Carl
-              [1925] (1963) "The Morphology of Landscape, en Land and Life, A
+              Robert C. West,&quot; in Economic Geography, Vol. 34, No.4. Sauer, Carl
+              [1925] (1963) &quot;The Morphology of Landscape, en Land and Life, A
               Selection of Writings of Carl Ortwin Sauer, John Leighly (Ed.),
               Berkeley, University of California Press. </p>
               <p>
-              [1941] (1963) "Foreword
-              to Historical Geography." en Land and Life, A Selection of
+              [1941] (1963) &quot;Foreword
+              to Historical Geography.&quot; en Land and Life, A Selection of
               Writings of Carl Ortwin Sauer, John Leighly (Ed.). Berkeley,
               University of California Press. </p>
               <p>
@@ -569,10 +569,10 @@ export default function SubheaderBlack({
               Orlando Melo y publicado en 1972 bajo el titulo La minería de
               aluvión en Colombia durante el período colonial, Bogotá, Imprenta
               Nacional (1954) -The Mangrove Swamp of the Pacific litoral of
-              Colombia," en Coastal Geography Conference, sponsored by the
+              Colombia,&quot; en Coastal Geography Conference, sponsored by the
               Office of Naval Reasearch and the NCR Committee on Geography, Feb.
               18, 1954, Washington, D.C., Office of Naval Research, p.44-50.
-              (1956) "Mangrove swamp of the Pacific coast of Colombia," in
+              (1956) &quot;Mangrove swamp of the Pacific coast of Colombia,&quot; in
               Annals of the Association of American Geographers, vol.46,
               p.98-21. (1957) The Pacific Lowlands of Colombia, Baton Rouge,
               Louisiana State University Press. (1966) Middle America, Its lands
