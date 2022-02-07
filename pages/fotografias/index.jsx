@@ -14,7 +14,6 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
 export default function fotografias({categories, items}) {
-  console.log(items)
   return (
     <div>
       <Header dark={true} fixed={true} />
