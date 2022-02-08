@@ -47,7 +47,7 @@ export default function SubheaderWhite({title, subtitle, imagen, desc, scroll, b
                             <p>{desc}</p>
                         </div>
                         <div className={`${modeButton} ${styles.rwSubheaderw__btn}`}>
-                            <a href="#">VOLVER</a>    
+                            <a href="/">VOLVER</a>    
                         </div>                
                     </div>
             </div>
