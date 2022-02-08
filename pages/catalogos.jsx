@@ -37,9 +37,6 @@ export default function catalogos() {
             />
           </div>
         </div>
-        <div className="row mt-5">
-              <ButtonBlack link="/" />
-            </div>
         <div className={`row ${styles.rwCatalogo}`}>
           <div className="col-12 col-md-3">
             <Cardsection imagen={ImagenPrueba} title="CATÁLOGOS" link="http://localhost:3000/catalogos" />
