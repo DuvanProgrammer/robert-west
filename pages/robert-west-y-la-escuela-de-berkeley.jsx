@@ -8,6 +8,7 @@ import ImagenPrueba4 from "../public/img/card-creditos.png";
 import Footer from "../components/Footer";
 import React, { useEffect } from 'react'
 import AOS from 'aos'
+import styles from "../styles/Escuela.module.css"
 
 import 'aos/dist/aos.css'
 
@@ -19,7 +20,7 @@ export default function Escuela() {
         });
       }, []);
     return (
-        <div>
+        <div className={styles.rwEscuela}>
             <Header dark={true} fixed={true}
             />
             <div>

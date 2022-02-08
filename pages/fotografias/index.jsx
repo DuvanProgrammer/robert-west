@@ -18,10 +18,12 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 export default function fotografias({items}) {
   return (
-    <div>
+    <div className={styles.rwFoto}>
       <Header dark={true} fixed={true} />
       <div>
-        <SubheaderSmall />
+        <SubheaderSmall 
+          title="FOTOGRAFÍAS"
+        />
       </div>
       <div className={`container ${styles.rwArchive}`}>
         <div className="row">

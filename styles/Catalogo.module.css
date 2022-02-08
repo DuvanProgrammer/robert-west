@@ -1,0 +1,8 @@
+.rwCat header li:nth-child(5) a{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.rwCatalogo{
+    margin-top: 5em;
+    margin-bottom: 6em
+}

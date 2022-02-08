@@ -1,3 +1,7 @@
+.rwFoto header li:nth-child(4) a{
+    font-weight: 600;
+    text-decoration: underline;
+}
 .rwArchive{
     padding: 5em 0
 }

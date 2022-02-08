@@ -7,6 +7,7 @@ import ImagenPrueba2 from "../public/img/card-historia.png";
 import ImagenPrueba3 from "../public/img/card-fotografias.png";
 import ImagenPrueba4 from "../public/img/card-creditos.png";
 import React, { useEffect } from 'react'
+import styles from "../styles/Historia.module.css"
 import AOS from 'aos'
 
 import 'aos/dist/aos.css'
@@ -19,7 +20,7 @@ export default function Historia(){
         });
       }, []);
     return(
-        <div>
+        <div className={styles.rwHistory}>
             <Header dark={false} fixed={true} />
             <div>
                 <SubheaderWhite

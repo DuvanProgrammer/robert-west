@@ -7,6 +7,7 @@ import FondoPrueba2 from "../public/img/fondo-cardmenu2.png";
 import FondoPrueba3 from "../public/img/fondo-cardmenu3.png";
 import FondoPrueba4 from "../public/img/fondo-cardmenu4.png";
 import FondoPrueba5 from "../public/img/fondo-cardmenu5.png";
+import styles from "../styles/Index.module.css";
 
 import React, { useEffect } from 'react'
 import AOS from 'aos'
@@ -21,7 +22,7 @@ export default function Inicio() {
         });
       }, []);
     return (
-        <div>
+        <div className={styles.rwHomeList}>
             <Header dark={false} fixed={true}
             />
             <div>

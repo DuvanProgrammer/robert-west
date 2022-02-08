@@ -1,0 +1,4 @@
+.rwEscuela header li:nth-child(2) a{
+    font-weight: 600;
+    text-decoration: underline;
+}
