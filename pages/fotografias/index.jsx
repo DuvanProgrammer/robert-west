@@ -1,6 +1,5 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import styles from "../../styles/fotografias.module.css";
 import SubheaderSmall from "../../components/SubheaderSmall";
 import ListCategories from "../../components/ListCategories";
 import CardPhoto from "../../components/CardPhoto";
@@ -15,6 +14,8 @@ import ImagenMapa from "../../public/img/choco-mapa-1.png";
 import Image from "next/image";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
+
+import styles from "../../styles/fotografias.module.css";
 
 export default function fotografias({items}) {
   return (
