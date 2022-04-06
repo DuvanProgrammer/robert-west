@@ -21,22 +21,16 @@ export default function catalogos() {
       </div>
       <div className="container mt-5">
         <div className="row">
-          <div className="col-4">
+          <div className="col-6">
             <Chapters 
-              chapter="Capítulo 1"
+              chapter="Rollos"
               open={"https://docs.google.com/spreadsheets/d/1OHHD35TFb65CXJ5M73Gjt2goP10uTwbt/edit?usp=sharing&ouid=108728836013224191858&rtpof=true&sd=true"}
             />
           </div>
-          <div className="col-4">
+          <div className="col-6">
             <Chapters 
-              chapter="Capítulo 2"
+              chapter="Negativos"
               open={"https://docs.google.com/spreadsheets/d/13_grpx6tMoYR5oVaVViSyFBLgQ2aOC3R/edit?usp=sharing&ouid=108728836013224191858&rtpof=true&sd=true"}
-            />
-          </div>
-          <div className="col-4">
-            <Chapters 
-              chapter="Capítulo 3"
-              open={"https://docs.google.com/spreadsheets/d/1qckjqYBwtv5_Xw0UoSBJ3seg1xfUTkn4/edit?usp=sharing&ouid=108728836013224191858&rtpof=true&sd=true"}
             />
           </div>
         </div>
