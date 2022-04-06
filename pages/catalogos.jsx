@@ -24,43 +24,46 @@ export default function catalogos() {
           <div className="col-4">
             <Chapters 
               chapter="Capítulo 1"
+              open={"https://docs.google.com/spreadsheets/d/1OHHD35TFb65CXJ5M73Gjt2goP10uTwbt/edit?usp=sharing&ouid=108728836013224191858&rtpof=true&sd=true"}
             />
           </div>
           <div className="col-4">
             <Chapters 
               chapter="Capítulo 2"
+              open={"https://docs.google.com/spreadsheets/d/13_grpx6tMoYR5oVaVViSyFBLgQ2aOC3R/edit?usp=sharing&ouid=108728836013224191858&rtpof=true&sd=true"}
             />
           </div>
           <div className="col-4">
             <Chapters 
               chapter="Capítulo 3"
+              open={"https://docs.google.com/spreadsheets/d/1qckjqYBwtv5_Xw0UoSBJ3seg1xfUTkn4/edit?usp=sharing&ouid=108728836013224191858&rtpof=true&sd=true"}
             />
           </div>
         </div>
         <div className={`row ${styles.rwCatalogo}`}>
           <div className="col-12 col-md-3">
-            <Cardsection imagen={ImagenPrueba} title="CATÁLOGOS" link="http://localhost:3000/catalogos" />
+            <Cardsection imagen={ImagenPrueba} title="CATÁLOGOS" link="/catalogos" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <Cardsection imagen={ImagenPrueba2} title="HISTORIA" link="http://localhost:3000/historia" />
+            <Cardsection imagen={ImagenPrueba2} title="HISTORIA" link="/historia" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="1800"
           >
-            <Cardsection imagen={ImagenPrueba3} title="FOTOGRAFÍAS" link="http://localhost:3000/fotografias" />
+            <Cardsection imagen={ImagenPrueba3} title="FOTOGRAFÍAS" link="/fotografias" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="2100"
           >
-            <Cardsection imagen={ImagenPrueba4} title="CRÉDITOS" link="http://localhost:3000/creditos" />
+            <Cardsection imagen={ImagenPrueba4} title="CRÉDITOS" link="/creditos" />
           </div>
         </div>
       </div>
