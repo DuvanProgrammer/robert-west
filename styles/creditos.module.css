@@ -1,0 +1,31 @@
+.rwRight{
+    text-align: right;
+}
+
+.rwLeft{
+    text-align: left;
+}
+
+.rwContentCredits2 h5{
+    text-align: left;
+    padding-right: 2em;
+    margin-bottom: 0;
+    line-height: 2em;
+    margin-top: 1em;
+}
+
+.rwContentCredits2 p{
+    font-weight: 300;
+}
+
+.rwContentCredits h5{
+    text-align: right;
+    padding-right: 2em;
+    margin-bottom: 0;
+    line-height: 2em;
+    margin-top: 1em;
+}
+
+.rwContentCredits p{
+    font-weight: 300;
+}

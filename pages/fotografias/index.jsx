@@ -14,10 +14,12 @@ import ImagenMapa from "../../public/img/choco-mapa-1.png";
 import Image from "next/image";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
+import { useRouter } from "next/router";
 
 import styles from "../../styles/fotografias.module.css";
 
-export default function fotografias({items}) {
+export default function fotografias({items, dataTags}) {
+  const router = useRouter()
   return (
     <div className={styles.rwFoto}>
       <Header dark={true} fixed={true} />
@@ -31,7 +33,9 @@ export default function fotografias({items}) {
           <div className="col-12 col-md-3">
             <div className={styles.rwCategories}>
               <h3>CATEGORÍAS</h3>
-              <ListCategories />
+              <ListCategories
+                data={dataTags}
+              />
               
               <h3 className="mb-4">SECTORES</h3>
               <Image src={ImagenMapa} objectFit="cover"></Image>
@@ -64,7 +68,7 @@ export default function fotografias({items}) {
             </form>
 
             {/* Form Tags */}
-            <div className={styles.rwTags}>
+            <div className={styles.rwTags} id="rw-tags">
               <span>
                 <svg
                   width="15"
@@ -104,28 +108,28 @@ export default function fotografias({items}) {
         </div>
         <div className={`row ${styles.rwCategoriesCar}`}>
           <div className="col-12 col-md-3">
-            <Cardsection imagen={ImagenPrueba} title="CATÁLOGOS" link="http://localhost:3000/catalogos" />
+            <Cardsection imagen={ImagenPrueba} title="CATÁLOGOS" link="/catalogos" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <Cardsection imagen={ImagenPrueba2} title="HISTORIA" link="http://localhost:3000/historia" />
+            <Cardsection imagen={ImagenPrueba2} title="HISTORIA" link="/historia" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="1800"
           >
-            <Cardsection imagen={ImagenPrueba3} title="FOTOGRAFÍAS" link="http://localhost:3000/fotografias" />
+            <Cardsection imagen={ImagenPrueba3} title="FOTOGRAFÍAS" link="/fotografias" />
           </div>
           <div
             className="col-12 col-md-3"
             data-aos="fade-up"
             data-aos-duration="2100"
           >
-            <Cardsection imagen={ImagenPrueba4} title="CRÉDITOS" link="http://localhost:3000/creditos" />
+            <Cardsection imagen={ImagenPrueba4} title="CRÉDITOS" link="/creditos" />
           </div>
         </div>
       </div>
@@ -136,12 +140,16 @@ export default function fotografias({items}) {
 
 
 export async function getStaticProps(){
-  const res = await fetch('https://badac.uniandes.edu.co/robertwest/api/files?per_page=12')
+  const res = await fetch('https://badac.uniandes.edu.co/robertwest/api/files?per_page=15&page=2')
   const items = await res.json()
+
+  const resTags = await fetch('https://badac.uniandes.edu.co/robertwest/api/tags?sort_field=name')
+  const dataTags = await resTags.json()
 
   return {
       props: {
-        items
+        items,
+        dataTags
       }
   }
 }

@@ -1,5 +1,6 @@
 import styles from "../styles/Chapters.module.css"
 import Image from "next/image"
+// import cap1 from "../public/docs/cap1.xls"
 
 export default function Chapters({chapter, open, download}) {
 
