@@ -27,6 +27,7 @@ export default function Inicio() {
             />
             <div>
                 <SubheaderWhite
+                    information_left={false}
                     scroll={false}
                     button={false}
                     imagen="/img/subheader-white.png"

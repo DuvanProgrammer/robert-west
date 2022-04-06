@@ -6,7 +6,7 @@ import AOS from 'aos'
 
 import 'aos/dist/aos.css'
 
-export default function SubheaderWhite({title, subtitle, imagen, desc, scroll, button}) {
+export default function SubheaderWhite({title, subtitle, imagen, desc, scroll, button, information_left}) {
     
     let modeScroll = ""
     if(scroll){
@@ -17,6 +17,11 @@ export default function SubheaderWhite({title, subtitle, imagen, desc, scroll, b
     if(button){
         modeButton = styles.rwSubheaderwButton
     }
+
+    let infoLeft = ""
+    if(information_left){
+        infoLeft = styles.rwSubheaderw__left
+    }
     useEffect(() => {
         // here you can add your aos options
         AOS.init({
@@ -25,7 +30,8 @@ export default function SubheaderWhite({title, subtitle, imagen, desc, scroll, b
       }, []);
     return (
         <div >
-            <div className={styles.rwSubheaderw}>
+            <div className={`${infoLeft} ${styles.rwSubheaderw}`}>
+            <div className={styles.rwSubheaderw__white}></div>
             <div className={styles.rwSubheaderw__image}
                 >
                 <Image
@@ -35,6 +41,7 @@ export default function SubheaderWhite({title, subtitle, imagen, desc, scroll, b
                     loading="eager"
                     >
                 </Image>
+                <div className={styles.rwSubheaderw__gradient}></div>
             </div>
             <div className={`container ${styles.rwSubheaderw__content}`}
                 data-aos="fade-left"
