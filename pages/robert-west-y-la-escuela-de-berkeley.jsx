@@ -29,7 +29,7 @@ export default function Escuela() {
                     scroll={true}
                     button={true}
                     imagen={"/img/subheader-black.png"}
-                    title="ROBERT WEST"
+                    title="ROBERT C. WEST"
                     subtitle="y la escuela de Berkeley"
                     desc= {<div><p>Las tierras bajas del Pacifico colombiano es un compendio, más
                         bien sobrio, de la información relevante sobre el paisaje material

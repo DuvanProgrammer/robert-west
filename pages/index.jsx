@@ -40,7 +40,7 @@ export default function Inicio() {
             <div>
                 <Cardmenu
                     fondo={FondoPrueba}
-                    title="ROBERT WEST"
+                    title="ROBERT C. WEST"
                     subtitle="y la escuela de Berkeley"
                     link="robert-west-y-la-escuela-de-berkeley"
                 />
