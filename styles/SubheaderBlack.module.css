@@ -57,6 +57,12 @@
     font-size: 16px;
     font-style: italic;
 }
+.rwSubheaderb__text strong{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 1em;
+    display: block;
+}
 .rwSubheaderb__text::-webkit-scrollbar{
     width: 8px;
     background-color: #3E3E3E;
