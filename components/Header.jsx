@@ -31,7 +31,7 @@ export default function Header({dark, fixed}) {
           </li>
           <li className={`nav-item ${styles.rwHeaderContItems}`}>
             <Link href="/robert-west-y-la-escuela-de-berkeley">
-              <a className={`nav-link ${styles.rwHeaderContItemsLink}`}>Rober C. West y la escuela de Berkeley</a>
+              <a className={`nav-link ${styles.rwHeaderContItemsLink}`}>Robert C. West y la escuela de Berkeley</a>
             </Link>
           </li>
           <li className={`nav-item ${styles.rwHeaderContItems}`}>
